@@ -4,7 +4,7 @@ const app = express();
 
 app.get("/", (req: Request, res: Response) => {
   res.status(200).json({
-    message: "Welcome to ghuri jatra server",
+    message: "Welcome to ghuri jatra server, This server is running....",
   });
 });
 
